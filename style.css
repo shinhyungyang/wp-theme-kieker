@@ -49,6 +49,15 @@ h1.showcase-heading {
 	text-align:justify;
 }
 
+/* Tables in the Performance Benchmarks page */
+.entry-content th.moobench-table-label, .entry-content td.moobench-table-label {
+	text-align: left;
+}
+.entry-content th.moobench-table-value, .entry-content td.moobench-table-value {
+	padding: 0px 10px 0px 0;
+	text-align: right;
+}
+
 /* Slideshow */
 header#branding div.kieker-slides .meteor-slides .meteor-buttons {
 	bottom: 6px;
