@@ -1,0 +1,166 @@
+/*
+Theme Name: Kieker Theme	
+Template: twentyeleven
+*/
+
+@import url("../twentyeleven/style.css");
+
+/* Hide some stuff */
+#site-generator, .ddsg-wrapper div {
+	display: none;
+}
+#branding {
+	border-top: none;
+}
+
+/* Always display scrollbar to prevent jumps */
+html {
+  overflow-y: scroll;
+}
+
+/* adjust spacing */
+#page {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 960px;
+  min-width: 960px;
+}
+.entry-content, .entry-summary, .hentry, .no-results, .singular .hentry, .singular.page .hentry, #main {
+	padding: 0;
+}
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title, .singular .image-attachment .entry-description {
+	width: 100%;
+}
+.singular .entry-meta .edit-link a {
+	left: -50px;
+}
+h1.showcase-heading {
+  font-size: inherit;
+  line-height: inherit;
+}
+#main {
+  text-align:justify;
+}
+.entry-content p, .entry-content ul, .entry-content ol, .entry-content img.alignleft, .entry-content img.alignright, .entry-content img.aligncenter {
+	margin-bottom: 0.625em;
+}
+.entry-content td,.comment-content td {
+	vertical-align: middle;
+	text-align:justify;
+}
+
+/* Slideshow */
+header#branding div.kieker-slides .meteor-slides .meteor-buttons {
+	bottom: 6px;
+	right: 6px;
+	left: auto;
+	width: auto;
+}
+header#branding div.kieker-slides div.navpaged, header#branding div.kieker-slides div.navboth {
+	margin: 0;
+}
+
+/* Headermenu */
+.menu-header {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+  font-size: 13px;
+}
+.menu-header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+}
+.menu-header li {
+	display: inline-block;
+}
+.menu-header a {
+	padding: 0 5px;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu-header ul ul {
+	display: none;
+	position: absolute;
+	left: 0px;
+	height: 20px;
+	width: 100%;
+	z-index: 9999;
+	background-color: #e9f5f9;
+}
+.menu-header ul ul a {
+	text-transform: none;
+}
+.menu-header ul li.current_page_item > a,
+.menu-header ul li.current-menu-ancestor > a,
+.menu-header ul li.current-menu-item > a,
+.menu-header ul li.current-menu-parent > a {
+	color: #000000;
+}
+.menu-header ul li.current-menu-ancestor > ul,
+.menu-header ul li.current-menu-item > ul,
+.menu-header ul li.current-menu-parent > ul {
+	display: block;
+}
+.menu-header ul li:hover > ul {
+	display: block;
+	z-index: 99999;
+}
+
+/* Footmenu */
+div.footer-edit-link, div.footer-admin-link {
+	height: 30px;
+	float: left;
+	border-top: 1px solid #ddd;
+	text-align: center;
+}
+div.footer-edit-link div, div.footer-admin-link div {
+	visibility: hidden;
+}
+#supplementary {
+	padding: 0;
+}
+#supplementary .widget {
+	margin: 0;
+	clear: none;
+}
+div.menu-footer_menu-container {
+	text-align: center;
+}
+div.menu-footer_menu-container a {
+	vertical-align: middle;
+}
+.widget_nav_menu ul#menu-footer_menu ul, .widget_nav_menu ul#menu-footer_menu li {
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+}
+.widget_nav_menu ul#menu-footer_menu li {
+	display: inline;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+/* kielprints */
+.kielprints {
+	font-size: smaller;
+}
+.kielprints .internal_soft_eng {
+	font-weight: bold;
+}
+.kielprints img.ep_doc_icon {
+	margin-left: 5px;
+}
+.kielprints div.ep_view_timestamp, .kielprints div.ep_view_blurb, .kielprints div.ep_view_jump {
+	display: none;
+}
+
+.entry-content h1 {
+	font-size: larger;
+}
