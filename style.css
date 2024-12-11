@@ -49,6 +49,19 @@ h1.showcase-heading {
 	text-align:justify;
 }
 
+/* Side menu on the front page */
+.widget ul ul {
+    margin-left: 0.5em;
+}
+
+.widget ul {
+    padding-left: 0.8em;
+}
+
+br {
+	display: inherit;
+}
+
 /* Tables in the Performance Benchmarks page */
 .entry-content th.moobench-table-label, .entry-content td.moobench-table-label {
 	text-align: left;
